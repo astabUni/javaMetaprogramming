@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import javax.xml.parsers.ParserConfigurationException;
-
+import org.junit.Ignore;
 import org.junit.Test;
 import org.softlang.metaprogramming.features.JCParser;
 import org.softlang.metaprogramming.features.XSDParser;
