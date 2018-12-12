@@ -18,7 +18,7 @@ import org.xml.sax.SAXException;
 public class CompanyTest {
 
 
-	  @Test
+	  @Ignore @Test
 	  public void comparisonCompany() {
 		  String company = 
 					"src/main/java/org/softlang/metaprogramming/dm/company/";  
