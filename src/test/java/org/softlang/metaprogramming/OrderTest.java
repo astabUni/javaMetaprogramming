@@ -16,7 +16,7 @@ import org.xml.sax.SAXException;
 
 public class OrderTest {
 
-	 @Test
+	@Ignore @Test
 	  public void comparisonOrder() {
 		  String order = 
 					"src/main/java/org/softlang/metaprogramming/dm/order/";
