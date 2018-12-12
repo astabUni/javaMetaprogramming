@@ -29,9 +29,9 @@ $ ./gradlew build
 ```
 * Command for preparing the project for Eclipse
 ```
-$ /.gradlew eclipse
+$ ./gradlew eclipse
 ```
-*
+
 
 # How to setup your own tests
 
@@ -58,8 +58,7 @@ $ ./gradlew build
 ```
 * Test your Schema by supplying the path to your Java data model
 ```java
-String yourTest = 
-					"src/main/java/org/softlang/metaprogramming/dm/yourDataModel/";
+String yourTest ="src/main/java/org/softlang/metaprogramming/dm/yourDataModel/";
 ```
 * Parse the data model into a Hashmap
 
@@ -77,8 +76,7 @@ Node yourXSD = XSDParser.initXSD("inputs/yourSchema.xsd");
 * Parse your Schema into a Hashmap
 
 ```java
-Map<String, Map<String, String>> yourTestMapX = 
-						XSDParser.parseXSD(yourXSD);
+Map<String, Map<String, String>> yourTestMapX =XSDParser.parseXSD(yourXSD);
 ```
 
 
